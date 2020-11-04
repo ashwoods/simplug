@@ -1,0 +1,663 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.2">
+    
+    
+      
+        <title>simplug</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.19190aaf.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.24b84193.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.8.1/css/all.css">
+    
+      <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.8.1/css/v4-shims.css">
+    
+      <link rel="stylesheet" href="css/mkapi-common.css">
+    
+      <link rel="stylesheet" href="style.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+      
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#simplug" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="." title="simplug" class="md-header-nav__button md-logo" aria-label="simplug">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            simplug
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Home
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="simplug" class="md-nav__button md-logo" aria-label="simplug">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    simplug
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="." class="md-nav__link">
+      
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Home
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="." class="md-nav__link md-nav__link--active">
+      Home
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#simplug" class="md-nav__link">
+    simplug
+  </a>
+  
+    <nav class="md-nav" aria-label="simplug">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    Installation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#examples" class="md-nav__link">
+    Examples
+  </a>
+  
+    <nav class="md-nav" aria-label="Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-toy-example" class="md-nav__link">
+    A toy example
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#a-complete-example" class="md-nav__link">
+    A complete example
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usage" class="md-nav__link">
+    Usage
+  </a>
+  
+    <nav class="md-nav" aria-label="Usage">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#definition-of-hooks" class="md-nav__link">
+    Definition of hooks
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#loading-plugins-from-setuptools-entrypoint" class="md-nav__link">
+    Loading plugins from setuptools entrypoint
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-plugin-registry" class="md-nav__link">
+    The plugin registry
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calling-hooks" class="md-nav__link">
+    Calling hooks
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#async-hooks" class="md-nav__link">
+    Async hooks
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#api" class="md-nav__link">
+    API
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="api/simplug/" class="md-nav__link">
+      API
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#simplug" class="md-nav__link">
+    simplug
+  </a>
+  
+    <nav class="md-nav" aria-label="simplug">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    Installation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#examples" class="md-nav__link">
+    Examples
+  </a>
+  
+    <nav class="md-nav" aria-label="Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-toy-example" class="md-nav__link">
+    A toy example
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#a-complete-example" class="md-nav__link">
+    A complete example
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usage" class="md-nav__link">
+    Usage
+  </a>
+  
+    <nav class="md-nav" aria-label="Usage">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#definition-of-hooks" class="md-nav__link">
+    Definition of hooks
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#loading-plugins-from-setuptools-entrypoint" class="md-nav__link">
+    Loading plugins from setuptools entrypoint
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-plugin-registry" class="md-nav__link">
+    The plugin registry
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calling-hooks" class="md-nav__link">
+    Calling hooks
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#async-hooks" class="md-nav__link">
+    Async hooks
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#api" class="md-nav__link">
+    API
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  <h1>Home</h1>
+                
+                <h2 id="simplug">simplug</h2>
+<p>A simple plugin system for python with async hooks supported</p>
+<h3 id="installation">Installation</h3>
+<div class="highlight"><pre><span></span><code>pip install -U simplug
+</code></pre></div>
+<h3 id="examples">Examples</h3>
+<h4 id="a-toy-example">A toy example</h4>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">simplug</span> <span class="kn">import</span> <span class="n">Simplug</span>
+
+<span class="n">simplug</span> <span class="o">=</span> <span class="n">Simplug</span><span class="p">(</span><span class="s1">&#39;project&#39;</span><span class="p">)</span>
+
+<span class="k">class</span> <span class="nc">MySpec</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;A hook specification namespace.&quot;&quot;&quot;</span>
+
+    <span class="nd">@simplug</span><span class="o">.</span><span class="n">spec</span>
+    <span class="k">def</span> <span class="nf">myhook</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">arg1</span><span class="p">,</span> <span class="n">arg2</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;My special little hook that you can customize.&quot;&quot;&quot;</span>
+
+<span class="k">class</span> <span class="nc">Plugin_1</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;A hook implementation namespace.&quot;&quot;&quot;</span>
+
+    <span class="nd">@simplug</span><span class="o">.</span><span class="n">impl</span>
+    <span class="k">def</span> <span class="nf">myhook</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">arg1</span><span class="p">,</span> <span class="n">arg2</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;inside Plugin_1.myhook()&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">arg1</span> <span class="o">+</span> <span class="n">arg2</span>
+
+<span class="k">class</span> <span class="nc">Plugin_2</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;A 2nd hook implementation namespace.&quot;&quot;&quot;</span>
+
+    <span class="nd">@simplug</span><span class="o">.</span><span class="n">impl</span>
+    <span class="k">def</span> <span class="nf">myhook</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">arg1</span><span class="p">,</span> <span class="n">arg2</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;inside Plugin_2.myhook()&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">arg1</span> <span class="o">-</span> <span class="n">arg2</span>
+
+<span class="n">simplug</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="n">Plugin_1</span><span class="p">,</span> <span class="n">Plugin_2</span><span class="p">)</span>
+<span class="n">results</span> <span class="o">=</span> <span class="n">simplug</span><span class="o">.</span><span class="n">hooks</span><span class="o">.</span><span class="n">myhook</span><span class="p">(</span><span class="n">arg1</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">arg2</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">results</span><span class="p">)</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>inside Plugin_1.myhook()
+inside Plugin_2.myhook()
+[3, -1]
+</code></pre></div>
+<p>Note that the hooks are executed in the order the plugins are registered. This is different from <code>pluggy</code>.</p>
+<h4 id="a-complete-example">A complete example</h4>
+<p>See <code>examples/complete/</code>.</p>
+<p>Running <code>python -m examples.complete</code> gets us:
+<div class="highlight"><pre><span></span><code>Your food. Enjoy some egg, egg, egg, salt, pepper, egg, egg
+Some condiments? We have pickled walnuts, steak sauce, mushy peas, mint sauce
+</code></pre></div></p>
+<p>After install the plugin:
+<div class="highlight"><pre><span></span><code>&gt; pip install --editable examples.complete.plugin
+&gt; python -m examples.complete <span class="c1"># run again</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>Your food. Enjoy some egg, egg, egg, salt, pepper, egg, egg, lovely spam, wonderous spam
+Some condiments? We have pickled walnuts, mushy peas, mint sauce, spam sauce
+Now this is what I call a condiments tray!
+</code></pre></div></p>
+<h3 id="usage">Usage</h3>
+<h4 id="definition-of-hooks">Definition of hooks</h4>
+<p>Hooks are specified and implemented by decorating the functions with <code>simplug.spec</code> and <code>simplug.impl</code> respectively.</p>
+<p><code>simplug</code> is initialized by:
+<div class="highlight"><pre><span></span><code><span class="n">simplug</span> <span class="o">=</span> <span class="n">Simplug</span><span class="p">(</span><span class="s1">&#39;project&#39;</span><span class="p">)</span>
+</code></pre></div></p>
+<p>The <code>'project'</code> is a unique name to mark the project, which makes sure <code>Simplug('project')</code> get the same instance each time.</p>
+<p>Note that if <code>simplug</code> is initialized without <code>project</code>, then a name is generated automatically as such <code>project-0</code>, <code>project-1</code>, etc.</p>
+<p>Hook specification is marked by <code>simplug.spec</code>:
+<div class="highlight"><pre><span></span><code><span class="n">simplug</span> <span class="o">=</span> <span class="n">Simplug</span><span class="p">(</span><span class="s1">&#39;project&#39;</span><span class="p">)</span>
+
+<span class="nd">@simplug</span><span class="o">.</span><span class="n">spec</span>
+<span class="k">def</span> <span class="nf">setup</span><span class="p">(</span><span class="n">args</span><span class="p">):</span>
+    <span class="o">...</span>
+</code></pre></div></p>
+<p><code>simplug.spec</code> can take two keyword-arguments:</p>
+<ul>
+<li><code>required</code>: Whether this hook is required to be implemented in plugins</li>
+<li><code>result</code>: An enumerator to specify the way to collec the results.<ul>
+<li>SimplugResult.ALL: Get all the results from the hook, as a list
+    including <code>NONE</code>s</li>
+<li>SimplugResult.ALL_BUT_NONE: Get all the results from the hook,
+    as a list, not including <code>NONE</code>s</li>
+<li>SimplugResult.FIRST: Get the none-<code>None</code> result from the
+    first plugin only (ordered by priority)</li>
+<li>SimplugResult.LAST: Get the none-<code>None</code> result from
+    the last plugin only</li>
+</ul>
+</li>
+</ul>
+<p>Hook implementation is marked by <code>simplug.impl</code>, which takes no additional arguments.</p>
+<p>The name of the function has to match the name of the function by <code>simplug.spec</code>. And the signatures of the specification function and the implementation function have to be the same in terms of names. This means you can specify default values in the specification function, but you don't have to write the default values in the implementation function.</p>
+<p>Note that default values in implementation functions will be ignored.</p>
+<p>Also note if a hook specification is under a namespace, it can take <code>self</code> as argument. However, this argument will be ignored while the hook is being called (<code>self</code> will be <code>None</code>, and you still have to specify it in the function definition).</p>
+<h4 id="loading-plugins-from-setuptools-entrypoint">Loading plugins from setuptools entrypoint</h4>
+<p>You have to call <code>simplug.load_entrypoints(group)</code> after the hook specifications are defined to load the plugins registered by setuptools entrypoint. If <code>group</code> is not given, the project name will be used.</p>
+<h4 id="the-plugin-registry">The plugin registry</h4>
+<p>The plugins are registered by <code>simplug.register(*plugins)</code>. Each plugin of <code>plugins</code> can be either a python object or a str denoting a module that can be imported by <code>importlib.import_module</code>.</p>
+<p>The python object must have an attribute <code>name</code>, <code>__name__</code> or <code>__class.__name__</code> for <code>simplug</code> to determine the name of the plugin. If the plugin name is determined from <code>__name__</code> or <code>__class__.__name__</code>, it will be lowercased.</p>
+<p>If a plugin is loaded from setuptools entrypoint, then the entrypoint name will be used (no matter what name is defined inside the plugin)</p>
+<p>You can enable or disable a plugin temporarily after registration by:
+<div class="highlight"><pre><span></span><code><span class="n">simplug</span><span class="o">.</span><span class="n">disable</span><span class="p">(</span><span class="s1">&#39;plugin_name&#39;</span><span class="p">)</span>
+<span class="n">simplug</span><span class="o">.</span><span class="n">enable</span><span class="p">(</span><span class="s1">&#39;plugin_name&#39;</span><span class="p">)</span>
+</code></pre></div></p>
+<p>You can use following methods to inspect the plugin registry:</p>
+<ul>
+<li><code>simplug.get_plugin</code>: Get the plugin by name</li>
+<li><code>simplug.get_all_plugins</code>: Get a dictionary of name-plugin mappings of all plugins</li>
+<li><code>simplug.get_all_plugin_names</code>: Get the names of all plugins, in the order it will be executed.</li>
+<li><code>simplug.get_enabled_plugins</code>: Get a dictionary of name-plugin mappings of all enabled plugins</li>
+<li><code>simplug.get_enabled_plugin_names</code>: Get the names of all enabled plugins, in the order it will be executed.</li>
+</ul>
+<h4 id="calling-hooks">Calling hooks</h4>
+<p>Hooks are call by <code>simplug.hooks.&lt;hook_name&gt;(&lt;arguments&gt;)</code> and results are collected based on the <code>result</code> argument passed in <code>simplug.spec</code> when defining hooks.</p>
+<h4 id="async-hooks">Async hooks</h4>
+<p>It makes no big difference to define an async hook:
+<div class="highlight"><pre><span></span><code><span class="nd">@simplug</span><span class="o">.</span><span class="n">spec</span>
+<span class="k">async</span> <span class="k">def</span> <span class="nf">async_hook</span><span class="p">(</span><span class="n">arg</span><span class="p">):</span>
+    <span class="o">...</span>
+
+<span class="c1"># to supress warnings for sync implementation</span>
+<span class="nd">@simplug</span><span class="o">.</span><span class="n">spec</span><span class="p">(</span><span class="n">warn_sync_impl_on_async</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="k">async</span> <span class="k">def</span> <span class="nf">async_hook</span><span class="p">(</span><span class="n">arg</span><span class="p">):</span>
+    <span class="o">...</span>
+</code></pre></div></p>
+<p>One can implement this hook in either an async or a sync way. However, when implementing it in a sync way, a warning will be raised. To suppress the warning, one can pass a <code>False</code> value of argument <code>warn_sync_impl_on_async</code> to <code>simplug.spec</code>.</p>
+<p>To call the async hooks (<code>simplug.hooks.async_hook(arg)</code>), you will just need to call it like any other async functions (using <code>asyncio.run</code>, for example)</p>
+<h3 id="api">API</h3>
+<p>https://pwwang.github.io/simplug/</p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+        
+          <a href="api/simplug/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                API
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="assets/javascripts/vendor.7e0ee788.min.js"></script>
+      <script src="assets/javascripts/bundle.c1ccee15.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: ".",
+          features: [],
+          search: Object.assign({
+            worker: "assets/javascripts/worker/search.4ac00218.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+        <script src="js/mkapi.js"></script>
+      
+    
+  </body>
+</html>
